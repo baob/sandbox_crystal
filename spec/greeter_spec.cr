@@ -1,5 +1,7 @@
+# vi: set ft=ruby :
+
 require "spec"
-require "../lib/greeter" # my greeter class
+require "../src/greeter" # my greeter class
 
 describe Greeter do
   describe "#shout" do
